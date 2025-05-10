@@ -1,0 +1,1843 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "groups": [
+             {
+              "num_to_select" : 8,
+              "trades": [
+                 {
+                     "cost_a": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:emerald",
+                       "functions": [
+                         {
+                           "function": "minecraft:set_count",
+                           "count": 5,
+                           "add": false
+                         }
+                       ]
+                     },
+                     "result": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:acacia_sapling"
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 1,
+                     "max_uses": 8
+                   },
+                   {
+                     "cost_a": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:emerald",
+                       "functions": [
+                         {
+                           "function": "minecraft:set_count",
+                           "count": 5,
+                           "add": false
+                         }
+                       ]
+                     },
+                     "result": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:birch_sapling"
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 1,
+                     "max_uses": 8
+                   },
+                   {
+                     "cost_a": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:emerald",
+                       "functions": [
+                         {
+                           "function": "minecraft:set_count",
+                           "count": 5,
+                           "add": false
+                         }
+                       ]
+                     },
+                     "result": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:dark_oak_sapling"
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 1,
+                     "max_uses": 8
+                   },
+                   {
+                     "cost_a": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:emerald",
+                       "functions": [
+                         {
+                           "function": "minecraft:set_count",
+                           "count": 5,
+                           "add": false
+                         }
+                       ]
+                     },
+                     "result": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:jungle_sapling"
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 1,
+                     "max_uses": 8
+                   },
+                   {
+                     "cost_a": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:emerald",
+                       "functions": [
+                         {
+                           "function": "minecraft:set_count",
+                           "count": 5,
+                           "add": false
+                         }
+                       ]
+                     },
+                     "result": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:oak_sapling"
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 1,
+                     "max_uses": 8
+                   },
+                   {
+                     "cost_a": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:emerald",
+                       "functions": [
+                         {
+                           "function": "minecraft:set_count",
+                           "count": 5,
+                           "add": false
+                         }
+                       ]
+                     },
+                     "result": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:spruce_sapling"
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 1,
+                     "max_uses": 8
+                   },
+                   {
+                     "cost_a": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:emerald",
+                       "functions": [
+                         {
+                           "function": "minecraft:set_count",
+                           "count": 5,
+                           "add": false
+                         }
+                       ]
+                     },
+                     "result": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:cherry_sapling"
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 1,
+                     "max_uses": 8
+                   },
+                   {
+                     "cost_a": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:emerald",
+                       "functions": [
+                         {
+                           "function": "minecraft:set_count",
+                           "count": 5,
+                           "add": false
+                         }
+                       ]
+                     },
+                     "result": {
+                       "type": "minecraft:item",
+                       "name": "minecraft:mangrove_propagule"
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 1,
+                     "max_uses": 8
+                   }
+              ]
+             }
+          ]
+        },
+        {
+          "groups": [
+             {
+               "num_to_select" : 4,
+               "trades": [
+                 {
+                     "cost_a": {
+                         "type":"minecraft:item",
+                         "name": "minecraft:ancient_debris",
+                         "functions": [
+                             {
+                                 "function": "minecraft:set_count",
+                                 "count": 1,
+                                 "add": false
+                             }
+                         ]
+                     },
+                     "result": {
+                         "type": "minecraft:item",
+                         "name": "minecraft:emerald",
+                         "functions": [
+                           {
+                             "function": "minecraft:set_count",
+                             "count": 5,
+                             "add": false
+                           }
+                         ]
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 10,
+                     "max_uses": 100
+                 },
+                 {
+                     "cost_a": {
+                         "type":"minecraft:item",
+                         "name": "minecraft:diamond",
+                         "functions": [
+                             {
+                                 "function": "minecraft:set_count",
+                                 "count": 1,
+                                 "add": false
+                             }
+                         ]
+                     },
+                     "result": {
+                         "type": "minecraft:item",
+                         "name": "minecraft:emerald",
+                         "functions": [
+                           {
+                             "function": "minecraft:set_count",
+                             "count": 2,
+                             "add": false
+                           }
+                         ]
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 10,
+                     "max_uses": 100
+                 },
+                 {
+                     "cost_a": {
+                         "type":"minecraft:item",
+                         "name": "minecraft:iron_block",
+                         "functions": [
+                             {
+                                 "function": "minecraft:set_count",
+                                 "count": 1,
+                                 "add": false
+                             }
+                         ]
+                     },
+                     "result": {
+                         "type": "minecraft:item",
+                         "name": "minecraft:emerald",
+                         "functions": [
+                           {
+                             "function": "minecraft:set_count",
+                             "count": 1,
+                             "add": false
+                           }
+                         ]
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 10,
+                     "max_uses": 100
+                 },
+                 {
+                     "cost_a": {
+                         "type":"minecraft:item",
+                         "name": "minecraft:emerald",
+                         "functions": [
+                             {
+                                 "function": "minecraft:set_count",
+                                 "count": 2,
+                                 "add": false
+                             }
+                         ]
+                     },
+                     "result": {
+                         "type": "minecraft:item",
+                         "name": "minecraft:bookshelf",
+                         "functions": [
+                           {
+                             "function": "minecraft:set_count",
+                             "count": 1,
+                             "add": false
+                           }
+                         ]
+                     },
+                     "price_multiplier": 0.05,
+                     "trader_experience": 10,
+                     "max_uses": 100
+                 }
+               ]
+             }
+          ]   
+        }
+      ]
+    },
+    {
+      "total_exp_required": 10,
+      "groups": [
+        {
+          "num_to_select": 5,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:sea_pickle"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:slime_ball"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:glowstone"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:nautilus_shell"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:fern"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:sugar_cane"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:pumpkin"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 4
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:kelp"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:cactus"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:dandelion"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:poppy"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:blue_orchid"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:allium"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:azure_bluet"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:red_tulip"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:orange_tulip"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:white_tulip"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:pink_tulip"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:oxeye_daisy"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:cornflower"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:lily_of_the_valley"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 7
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:wheat_seeds"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:beetroot_seeds"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:pumpkin_seeds"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:melon_seeds"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:acacia_sapling"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:birch_sapling"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:dark_oak_sapling"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:jungle_sapling"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:oak_sapling"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:spruce_sapling"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:cherry_sapling"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:mangrove_propagule"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:red_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:white_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:blue_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:pink_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:black_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:green_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:light_gray_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:magenta_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:yellow_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:gray_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:purple_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:light_blue_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:lime_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:orange_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:brown_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:cyan_dye",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:brain_coral_block"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:bubble_coral_block"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:fire_coral_block"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:horn_coral_block"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:tube_coral_block"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:vine"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:brown_mushroom"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:red_mushroom"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:lily_pad",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:small_dripleaf",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:sand",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 8,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:red_sand",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 6
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:pointed_dripstone",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:rooted_dirt",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:moss_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 5
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:tropical_fish_bucket"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 4
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:pufferfish_bucket"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 4
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:packed_ice"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 6
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 6,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:blue_ice"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 6
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:gunpowder"
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 8
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:podzol",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 1,
+              "max_uses": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

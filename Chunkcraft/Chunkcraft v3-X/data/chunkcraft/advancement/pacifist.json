@@ -1,0 +1,16 @@
+{
+    "display": {
+      "title": "Pacifist",
+      "description": "What are you doing?",
+      "icon": {
+        "id": "minecraft:torch"
+      },
+      "show_toast": true,
+      "hidden": true
+    },
+    "parent": "chunkcraft:easter_eggs_wip_no_looking_lol/eegg",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {
+      "experience": 100
+    }
+}

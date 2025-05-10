@@ -1,0 +1,15 @@
+{
+    "display": {
+      "title": "Ghost Mode",
+      "description": "Well, you tried.",
+      "icon": {
+        "id": "minecraft:soul_lantern"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "chunkcraft:health/h10",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

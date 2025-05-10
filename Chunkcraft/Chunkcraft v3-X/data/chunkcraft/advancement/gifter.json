@@ -1,0 +1,16 @@
+{
+    "display": {
+      "title": "Gifter",
+      "description": "That's not gonna help you win.",
+      "icon": {
+        "id": "minecraft:heart_of_the_sea"
+      },
+      "frame": "challenge",
+      "show_toast": true
+    },
+    "parent": "chunkcraft:root",
+      "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {
+      "experience": 100
+    }
+}

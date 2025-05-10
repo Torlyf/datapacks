@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Easter Eggs",
+        "description": "Good Luck Finding These",
+        "icon": {
+          "id": "minecraft:creeper_spawn_egg"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "chunkcraft:root",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}}
+    
+}

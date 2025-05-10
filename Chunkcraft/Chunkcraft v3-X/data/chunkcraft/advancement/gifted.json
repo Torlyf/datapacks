@@ -1,0 +1,17 @@
+{
+    "display": {
+      "title": "Gifted",
+      "description": "BACK STAB THEM NOW!",
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "hidden" : true
+    },
+    "parent": "chunkcraft:gifter",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {
+      "experience": 100
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+      "title": "Fishin' Time",
+      "description": "What are you looking for?",
+      "icon": {
+        "id": "minecraft:fishing_rod"
+      },
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "chunkcraft:root",
+    "criteria": {
+      "useRod": {
+        "trigger": "minecraft:fishing_rod_hooked"
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }

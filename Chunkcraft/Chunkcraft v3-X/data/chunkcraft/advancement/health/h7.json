@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Four Lives Left",
+        "description": "Now things start to get crazy",
+        "icon": {
+            "id": "minecraft:diamond_boots"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:health/h6",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

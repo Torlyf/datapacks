@@ -1,0 +1,25 @@
+{
+    "display": {
+      "title": "Two Rods are Better than One!",
+      "description": "You're REALLY hoping for that book aren't you?",
+      "icon": {
+        "id": "minecraft:enchanted_book"
+      },
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "chunkcraft:fishing1",
+    "criteria": {
+      "load": {
+        "trigger": "minecraft:fishing_rod_hooked",
+        "conditions": {
+          "item": {
+            "items": "minecraft:fishing_rod"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+}

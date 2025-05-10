@@ -1,0 +1,141 @@
+
+
+=======================//
+ D E V   L O G
+====| key |======//
+    - Dev Note
+    X Bug
+    = Season Twist
+    // Odd Note
+
+The v.X.Y actually relates to the seasons. 
+X is the season of Chunkcraft it was made for,
+Y is the code version.
+Z is... well, let's hope we don't get to z.
+
+v.0.0
+    - Original Vitality Datapack.
+    // Oh gosh, who made this? they must've had fun with it.
+    // actually was garbage like the functions didn't make ANY sense 
+    // all the functions were named like 'tick2.mcfunction' like what on earth?
+
+v.1.0
+    - UnofficialBobcat Changed for Season 1 of Chunkcraft
+    = The Twists of S1 was Vitality + Worldborder. Worldborder expands with death.
+
+v.2.0
+    - Commander_F1shy Changed it for Season 2.
+    = The Twists of S2 was Chunkcraft Worldborder Shrinks with Banning.
+    X The Banning function didn't work lol. Good times.
+
+v.2.1
+    - Commander_F1shy Kept Changing it.
+    - Final Session Changes. BANGER ideas.
+    - Fixed Banning.
+
+v.3.0
+    - Cubert_4x4 remade the datapack from v2.0 to be readable.
+    - Added Advancements
+
+v.3.1 - The 'I actually Tested it' update
+    X I think 'Killer' advancement is Broken, But i didn't get a good test in.
+    X 'last_session' might be broken too, but idk.
+    - Fixed tick.mcfunction not working.
+
+v.3.2 - The 'Send to Fishy' Update
+    - Fixed bug where first death doesn't change anything
+    - Cleaned Up this text file.
+    - Changed Version & Name to match with Chunkcraft Seasons.
+    - Tweaked Settings.
+    X Also forgot to say that Wandering Trader changes might not be working. *Ugh*
+    X I should probably fix what would happen if anyone tried running the spawn function twice in a row. Should be fine.
+    X Oh yeah still gotta implement the Final Session Banning Actions... Hmmm
+
+v.3.3 - The 'Last Session' Update
+    - Renamed and 'fixed' last_session.mcfunction to ls/start.mcfunction
+    - Got code from Fishy's v.2.1 that I asked for.
+    // I need to make a timer system to randomly do the last session stuff.
+    // Apperantly Fishy & Bobcat are going to do a idea meeting? Maybe i should hold off on learning timers just in case they change the final session.
+    // But I also hope that we add on each season. I REALLY liked the ending and not knowing what was happening. So awesome. Maybe I should let the others code the new twist.
+    // Also the fact that the twist kinda keeps growing? SO stinking cool. It's like I'm writing in a history book lol...
+    // oh gosh my 'testing' world has 4.6 hours played...
+    - Moved some commands into a folder named 'code'
+    - Suposedly made the ending session automatic, with 5 minute breaks between bans. lets Go.
+    - Added:
+        - a Player count so we can automatically tell when the final session is over. :party:
+        - Also a Banned Count. Ugh. 
+        - a Health Count / Heart Count to the tab list, disable in load.mcfunction
+        - Lore
+    //This datapack is growing so much. What am i doing? Well, at least it's sorted. :/
+    - Replaced new_player.mcfunction with code/players.mcfunction
+    //I don't wanna test it i'm sending it.
+
+v.3.4 - The Fishy Minor Fixes Update
+//Written By Fishy
+    - Not 100% sure what I fixed, but a bunch of small Things
+        X moved some files so they matched with what some of the code says
+        X changed some commands so they affect all players instead of just one
+        X Fixed the advancements so they show the popup when you succeede
+    - We need to fix the heart system. It works as long as long as you are by yourself. In multiplayer things get complicated
+        -The function that gives players 1 heart when they first join doesn't work, instead it copies the number of hearts a different player has
+        -when a player dies, it gives a different player an extra heart. Later, the player that actually died gets the heart
+        -This is because the command runs for the nearest player, and when you die, you aren't technally in the game, so a different player gets the extra heart, while also technally being on two hearts.
+        -I am not 100% sure how to fix this issue. I think we need to add delay, or maybe apply the command to the specific player, which I have no idea how to do.
+
+v.3.5 - Wait... It Works?
+    // it's just me fixing my bugs & such. Thanks Fishy! You're amazing!
+    - Created a Send life System? that's gonna be annoying. Might work, no promises.
+    - Totally remade / moved most of what was in tick.mcfunction to /code/healthcheck.mcfunction .
+    X Didn't Fix Wandy T
+    - fixed starting Heart being 1, not 2.
+    // Realised that player count isn't usefull to count anyways since players might be banned or gone day of, leaving a different number for the last session...
+    - Created a PVP disable For when people are joining.
+        - Created and scheduled an enable pvp command 15 min after the start. should be in start.mcfunction 
+    // wait is @a all players or is @p all players? OH @P IS NEAREST PLAYER OH SHOOT
+        - hopefully fixed that mistake.
+    - Hopefully Fixed the Heart System, it should only run once.
+    - Standerdised 35 seconds of slowfalling
+    - Added the varible --i mean objective-- "Phase," 
+        - Phase 1 is before the game starts,
+        - Phase 2 is during the game.
+        - Phase 3 is the Last Session
+    // Ideas for Easter Eggs in the works.
+    - Removed load.mcfunction chat message because... we don't really need to tell people. and it wasn't showing up anyhow.
+    //
+    // Wait it works?
+    //
+    - It looks like the heart count, and the send Life commands are working... Cool.
+    - Maybe fixed Spawn Box not always deleting right
+    X onDeath is run everytime players send a life.
+
+v.3.6 - Clean UPdate
+    - moved "health" folder into healthcheck.mcfunction and healthcheck2.mcfunction
+    - Made it EVEN MORE efficent.
+    - Fixed bug that ondeath would run every time someone gifted a life.
+    - renamed SendLife to GiftLife
+    - Moved Devlog out of Guide.txt,
+    - Also just cleaned up more stuff.
+    - /teams are now compatible, BUT only after the game is started.
+
+
+Completed / WIP Ideas
+    ✅ - Done  /  /  ☑️ - WIP
+    ✅ Change tick.mcfunction to be more efficent
+    ✅ Revive System
+    ✅ /trigger Transfer_Life Command
+    ✅ Clean up the functions more, cus no one wants to see how many functions I have for the hearts.
+    ☑️ Wandy T Changes
+    ☑️ Easter Egg(s) ?
+        ☑️ - Fishy
+        ☑️ - Cubert
+
+Other Ideas
+    - 'Expand the World' Item to Craft?
+    - Fishing Lootable Changes
+    - upload to public once Finnished.
+    - Player Head Drops + something?
+    - Banning a player Grants a Life.
+    - heart tasks
+    - Quick Start version
+       (It just starts without commands needed or flair.)
+    - Uninstallation Method

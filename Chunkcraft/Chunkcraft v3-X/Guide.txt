@@ -1,0 +1,66 @@
+So!
+You wanna play some Chunkcraft, Eh?
+Good luck fam. o7
+
+Things to Know:
+    Minecraft Versions Supported - 1.21.4 (Others might work, IDK)
+    Code Version - 3.6
+    // Wait, It Works?
+    Multiplayer & Singleplayer Supported
+    Reccomended for new worlds
+    No Uninstallation Method
+    This Uses /teams a little bit, Rn more teams are not supported.
+
+Authors:
+    - UnofficialBobcat
+        // He Started it!
+        Youtube: https://www.youtube.com/@unofficialbobcat
+        Discord: bobcat2860
+    - Commander_F1shy
+        // OG Developer
+        Youtube: https://www.youtube.com/@f1shy27
+        Discord: commanderf1shy
+    - Cubert_4x4
+        // Developer
+        Youtube: https://www.youtube.com/@Cubert_4x4
+        Discord: cubert_4x4
+
+
+To Setup:
+    Go to where you want the center to be,
+    run /function chunkcraft:spawn
+
+To Start the Game:
+    run /function chunkcraft:start
+
+To Send a Life to someone (Only sends One, Repeat if you want to do more.)
+    /trigger GiftLife set 1
+
+To Revive (or reset) Someone:
+    run /execute as [Username] run function chunkcraft:revive
+
+To Grant a new Life:
+    run /execute as [Username] run function chunkcraft:code/gainlife
+
+To Take away a life:
+    Other than killing them:
+    run /execute as [Username] run scoreboard players add @s deaths 1
+
+To add a New Player:
+    New players are automatically added, unless they join for the final session only, (Which would be stupid.) 
+    To introduce final-session-er(s) run
+        /tag Username add chunkcraft
+    and then
+        /execute as Username run function chunkcraft:revive
+
+Things You Could Change:
+ (All of these are foulder names start in data/chunkcraft/function)
+    Base Settings ->  load.mcfunction
+    What happens when someone is banned -> code/onban.mcfunction
+    What happens when someone dies -> code/ondeath.mcfunction
+    What happens when it's the last session -> /last/*
+    How Wide the world is -> spawn.mcfunction // Last Line
+    Spawn Radius -> start.mcfunction //in the Misc Section
+    
+    Wandering Trader Changes -> data/minecraft/trades.wanderingtrader.json // Not sure if this even works tbh
+    Fishing Lootable Changes -> data/chunkcraft/loot_table/fishing.json // Also not sure if this works lol

@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Dos Vives Mas",
+        "description": "Just go kill them all, it'll be fine.",
+        "icon": {
+            "id": "minecraft:diamond_chestplate"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:health/h8",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

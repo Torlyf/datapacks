@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Banned",
+        "description": "Skill Issue",
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:root",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/onban"}
+}
