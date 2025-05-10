@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Six Lives Left",
+        "description": "Step it up and make things interesting.",
+        "icon": {
+            "id": "minecraft:iron_axe"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:health/h4",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

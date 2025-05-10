@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Seven Lives Left",
+        "description": "You die again?",
+        "icon": {
+            "id": "minecraft:iron_ore"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:health/h3",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

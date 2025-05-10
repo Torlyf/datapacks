@@ -1,0 +1,26 @@
+{
+    "display": {
+      "title": "Killer",
+      "description": "Good job, i guess.",
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "hidden": true
+    },
+    "parent": "chunkcraft:easter_eggs_wip_no_looking_lol/eegg",
+    "criteria": {
+      "load": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+}

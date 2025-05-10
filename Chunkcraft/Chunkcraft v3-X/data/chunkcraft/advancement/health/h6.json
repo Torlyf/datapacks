@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Five Lives Left",
+        "description": "Halfway there, Getting worried?",
+        "icon": {
+            "id": "minecraft:diamond"
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:health/h5",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

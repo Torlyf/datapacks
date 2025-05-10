@@ -1,0 +1,14 @@
+{
+    "display": {
+        "title": "One Heart, 10 Lives.",
+        "description": "The Ideal, Supposedly",
+        "icon": {
+            "id": "minecraft:oak_log"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "chunkcraft:root",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

@@ -1,0 +1,15 @@
+{
+  "display": {
+      "title": "Redacted",
+      "description": "Redacted",
+      "icon": {
+        "id": "minecraft:fishing_rod"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+  },
+  "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+  "parent": "chunkcraft:easter_eggs_wip_no_looking_lol/eegg"
+
+}

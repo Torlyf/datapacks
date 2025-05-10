@@ -1,0 +1,14 @@
+{
+    "display": {
+        "title": "Revived",
+        "description": "How'd you-? Ugh... No Matter. It all leads to the same fate.",
+        "icon": {
+            "id": "minecraft:totem_of_undying"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "chunkcraft:banned",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}}
+}

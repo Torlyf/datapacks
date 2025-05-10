@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Last Life",
+        "description": "Make it yours.",
+        "icon": {
+            "id": "minecraft:diamond_helmet"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:health/h9",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

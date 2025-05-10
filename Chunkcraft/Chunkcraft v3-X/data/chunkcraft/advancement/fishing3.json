@@ -1,0 +1,25 @@
+{
+    "display": {
+      "title": "A Book!",
+      "description": "So you can enchant now, who cares?.",
+      "icon": {
+        "id": "minecraft:enchanted_book"
+      },
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "chunkcraft:fishing1",
+    "criteria": {
+      "load": {
+        "trigger": "minecraft:fishing_rod_hooked",
+        "conditions": {
+          "item": {
+            "items": "minecraft:enchanted_book"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+}

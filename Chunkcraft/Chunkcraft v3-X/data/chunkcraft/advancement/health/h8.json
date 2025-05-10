@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Final Three",
+        "description": "You starting to feel it?",
+        "icon": {
+            "id": "minecraft:diamond_leggings"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:health/h7",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}

@@ -1,0 +1,14 @@
+{
+    "display": {
+      "title": "Chunkcraft",
+      "description": "Here we go again.",
+      "icon": {
+        "id": "minecraft:vault"
+      },
+      "background": "minecraft:textures/block/gray_concrete.png",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}}
+}

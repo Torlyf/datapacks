@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Eight Lives Left",
+        "description": "These lives are really confusing... heh >:)",
+        "icon": {
+            "id": "minecraft:cobblestone"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "sends_telemetry_event": false,
+    "parent": "chunkcraft:health/h2",
+    "criteria": {"trigger": {"trigger": "minecraft:impossible"}},
+    "rewards": {"function": "chunkcraft:code/ondeath"}
+}
