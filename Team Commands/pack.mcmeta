@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "pack_format": 26,
+    "description": [
+      "Supports",
+      {
+        "text": " 50 ",
+        "color": "gold"
+      },
+      "players\nby ",
+      {
+        "text": "Torlyf",
+        "color": "aqua"
+      }
+    ]
+  },
+  "id": "cteam",
+  "version": "1.0"
+}
